@@ -10,8 +10,6 @@ type Questions struct {
 
 type Question map[string]string
 
-//type Questions []Question `yaml:"a"`
-
 func LoadYaml() Questions {
 
 	file, _ := ioutil.ReadFile("data.yaml")
@@ -23,5 +21,4 @@ func LoadYaml() Questions {
 	}
 
 	return questions
-
 }
