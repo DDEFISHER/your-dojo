@@ -1,0 +1,16 @@
+questions:
+    - question: Who cast the ring into mount doom
+      answer: Frodo
+
+    - question: Who is mr robot
+      answer: elliot
+
+    - question: How to delcare an int named x with value 3
+      answer: x:=3
+
+    - question: what to declare function called f with 0 params and returns int
+      answer: func f() int
+
+    - question: Who color is the sky?
+      answer: Blue
+
