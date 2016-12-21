@@ -41,8 +41,8 @@ func printResult(input, answer string) {
 	r := strings.NewReplacer(" ", "")
 
 	if strings.ToLower(r.Replace(input)) == strings.ToLower(r.Replace(answer)) {
-		fmt.Println("\033[1;32mCorrect\033[0m")
+		fmt.Println("\033[1;32mCorrect\033[0m\n")
 	} else {
-		fmt.Println("\033[0;31mWrong\033[0m")
+		fmt.Println("\033[0;31mWrong\033[0m\n")
 	}
 }
